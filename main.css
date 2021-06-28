@@ -1,0 +1,91 @@
+.container {
+  height: 283px;
+  width: 450px;
+  margin: 100px auto;
+  border: 2px solid #cc8974;
+  box-shadow: 0 0 5px #333;
+  border-radius: 10px;
+  background-color: #333;
+  transition: 1s;
+}
+
+.container:hover {
+  transform: scale(125%);
+  box-shadow: 0 0 25px #333;
+}
+
+#logos {
+  margin: auto;
+  text-align: center;
+  /* colors inverted to display
+  against dark background */
+  filter: invert(1);
+}
+
+#html5 {
+  width: 2em;
+  margin-right: 8px;
+}
+
+#css3 {
+  width: 1.44em;
+  margin-right: 10px;
+}
+
+#js {
+  width: 2em;
+}
+
+#react {
+  width: 3em;
+}
+
+hr {
+  margin-bottom: 0;
+  width: 75%;
+}
+
+.contact {
+  padding: 2rem;
+  margin: auto;
+  font-size: .8rem;
+}
+
+a {
+  color: #cc8974;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+#name {
+  font-size: 32px;
+  font-family: "Monospace", sans-serif;
+  text-shadow: 2px 1px ##cc8974;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#job {
+  font-size: 1.5em;
+  font-family: "Monospace", sans-serif;
+  text-align: center;
+  color: #ab4b2e;
+}
+
+#left, #right {
+  font-size: 1.1em;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+#left {
+  line-height: 1.25rem;
+}
+#right {
+  float: right;
+}
